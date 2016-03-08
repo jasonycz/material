@@ -40,9 +40,9 @@
             </div>
         <![endif]-->
 
-        <div id="loader-container"></div>
+       <!--  <div id="loader-container"></div>
 
-        <header data-ng-include=" 'app/layout/header.html' "
+         <header data-ng-include=" 'app/layout/header.html' "
                  id="header"
                  class="header-container "
                  data-ng-class="{ 'header-fixed': main.fixedHeader,
@@ -66,13 +66,13 @@
                                     'bg-white': ['31','32','33','34','35','36'].indexOf(main.skin) >= 0,
                                     'bg-dark': ['31','32','33','34','35','36'].indexOf(main.skin) < 0
                    }">
-            </aside> -->
-
+            </aside>  -->
+ 
             <div id="content" class="content-container">
                 <section data-ui-view
                          class="view-container {{main.pageTransition.class}}"></section>
             </div>
-      </div> 
+<!--       </div>  -->
 
 
         <script src="http://maps.google.com/maps/api/js"></script>
@@ -119,6 +119,9 @@
         <script src="app/core/core.module.js"></script>
         <script src="app/form/form.module.js"></script>
         <script src="app/form/formValidation.module.js"></script>
+        
+<script src="app/form/formRegister.module.js"></script>
+
         <script src="app/layout/layout.module.js"></script>
         <script src="app/page/page.module.js"></script>
         <script src="app/table/table.module.js"></script>
@@ -132,6 +135,10 @@
         <script src="app/form/form.controller.js"></script>
         <script src="app/form/form.directive.js"></script>
         <script src="app/form/formValidation.controller.js"></script>
+
+       <script src="app/form/formRegister.controller.js"></script>
+       
+
         <script src="app/form/wizard.controller.js"></script>
         <script src="app/layout/layout.controller.js"></script>
         <script src="app/layout/layout.diretive.js"></script>
@@ -143,6 +150,12 @@
         <script src="app/ui/material.controller.js"></script>
         <script src="app/ui/ui.controller.js"></script>
         <script src="app/ui/ui.directive.js"></script>
+
+
+
+
+
+
         <!-- endinject -->
         <!-- build:js scripts/app.js -->
     </body>

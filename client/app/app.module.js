@@ -10,8 +10,10 @@
         ,'app.ui'
         ,'app.ui.form'
         ,'app.ui.form.validation'
+        ,'app.ui.form.register'
         ,'app.page'
         ,'app.table'
+
         
         // 3rd party feature modules
         ,'mgo-angular-wizard'
